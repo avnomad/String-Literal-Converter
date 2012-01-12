@@ -2,3 +2,7 @@ syntax: regexp
 Debug/*
 Release/*
 ipch/*
+syntax: glob
+String Literal Converter.opensdf
+String Literal Converter.sdf
+String Literal Converter.suo
