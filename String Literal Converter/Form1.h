@@ -153,9 +153,9 @@ namespace StringLiteralConverter {
 			this->atCheckBox->CheckState = System::Windows::Forms::CheckState::Checked;
 			this->atCheckBox->Location = System::Drawing::Point(262, 84);
 			this->atCheckBox->Name = L"atCheckBox";
-			this->atCheckBox->Size = System::Drawing::Size(137, 17);
+			this->atCheckBox->Size = System::Drawing::Size(148, 17);
 			this->atCheckBox->TabIndex = 6;
-			this->atCheckBox->Text = L"replace \'@\' with \"\\\" \\\"\"";
+			this->atCheckBox->Text = L"replace \'@\' with \"\\\",\\n\\\"\"";
 			this->atCheckBox->UseVisualStyleBackColor = true;
 			this->atCheckBox->CheckedChanged += gcnew System::EventHandler(this, &Form1::checkBox_CheckedChanged);
 			// 
@@ -163,7 +163,7 @@ namespace StringLiteralConverter {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(408, 103);
+			this->ClientSize = System::Drawing::Size(408, 102);
 			this->Controls->Add(this->atCheckBox);
 			this->Controls->Add(this->printfCheckBox);
 			this->Controls->Add(this->dollarCheckBox);
@@ -173,8 +173,8 @@ namespace StringLiteralConverter {
 			this->Controls->Add(this->originalLabel);
 			this->DoubleBuffered = true;
 			this->KeyPreview = true;
-			this->MaximumSize = System::Drawing::Size(60000000, 130);
-			this->MinimumSize = System::Drawing::Size(416, 130);
+			this->MaximumSize = System::Drawing::Size(60000000, 140);
+			this->MinimumSize = System::Drawing::Size(416, 140);
 			this->Name = L"Form1";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"String Literal Converter";
