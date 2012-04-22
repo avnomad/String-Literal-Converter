@@ -14,9 +14,9 @@ using namespace System::Security::Permissions;
 [assembly:AssemblyTitleAttribute("StringLiteralConverter")];
 [assembly:AssemblyDescriptionAttribute("")];
 [assembly:AssemblyConfigurationAttribute("")];
-[assembly:AssemblyCompanyAttribute("The Dark Side")];
+[assembly:AssemblyCompanyAttribute("-")];
 [assembly:AssemblyProductAttribute("StringLiteralConverter")];
-[assembly:AssemblyCopyrightAttribute("Copyright (c) The Dark Side 2008")];
+[assembly:AssemblyCopyrightAttribute("Copyright (c) Vaptistis Anogeianakis 2008, 2012")];
 [assembly:AssemblyTrademarkAttribute("")];
 [assembly:AssemblyCultureAttribute("")];
 
